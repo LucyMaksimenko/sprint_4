@@ -4,7 +4,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class MainPage(BasePage):
-
     def price_question(self):
         self.scroll_to_page_end()
         WebDriverWait(self.driver, 5).until(ec.visibility_of_element_located(MainPageLocators.question_price))

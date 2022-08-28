@@ -19,6 +19,7 @@ class MainPageLocators:
     question_beyond_mkad = (By.ID, "accordion__heading-7")
     answer_beyond_mkad = (By.ID, "accordion__panel-7")
 
+
 class OrderFlowLocators:
     order_button_top = (By.CLASS_NAME, "Button_Button__ra12g")
     order_button_middle = (By.CSS_SELECTOR, "[class='Button_Button__ra12g Button_Middle__1CSJM']")
